@@ -1,4 +1,7 @@
-teststring = "yOyo"
+mylist = [1,2,3]
 
-print(teststring[0].islower())
-print(teststring.capitalize())
+print(mylist)
+
+test = mylist.pop(1)
+
+print(test)
