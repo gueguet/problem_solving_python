@@ -17,3 +17,5 @@ Breaking the code interview version 6 :
 - plaindrome_permutations
 - rotate matrix
 - string_compression
+- zero matrix
+- stack_min 

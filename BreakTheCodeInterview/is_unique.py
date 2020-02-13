@@ -30,7 +30,7 @@ class Test(unittest.TestCase):
     data_true = [("abcd"), ("zea ")]
     data_false = [("abca"), ("z z")]
 
-    def test_is_uniqeu(self):
+    def test_is_unique(self):
 
         # true res
         for test_string in self.data_true:
