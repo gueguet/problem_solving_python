@@ -48,4 +48,4 @@ def going(n):
     return float(Decimal(res).normalize())
 
 # NOT FINISHED --> PB WHEN GO TO SUCH HIGH NUMBER
-print(going(1011))
+print(going(998))
