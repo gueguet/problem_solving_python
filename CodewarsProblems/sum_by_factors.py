@@ -1,6 +1,7 @@
 # https://www.codewars.com/kata/54d496788776e49e6b00052f/train/python
 
 
+from collections import defaultdict
 import math
 import unittest
 
@@ -74,3 +75,31 @@ class Test(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
+
+
+
+
+
+# clean answer
+
+
+def sum_for_list(lst):
+
+    def factors(x):
+        p_facs = []
+        i = 2
+        while x > 1 or x < -1:
+            if x % i == 0:
+                p_facs.append(i)
+                x //= i
+            else:
+                i += 1
+        return list(set(p_facs))
+
+    fac_dict = defaultdict(int)
+
+    for i in lst:
+        for fac in factors(i):
+            fac_dict[fac] += i
+
+    return sorted([[k, v] for k,v in fac_dict.items()])
