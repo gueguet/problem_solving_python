@@ -4,7 +4,7 @@
 
 import unittest
 
-
+# go through the list from tight part
 def next_bigger(n):
     n_lst = list(str(n))
     i, j = len(n_lst) - 1, len(n_lst) - 1
