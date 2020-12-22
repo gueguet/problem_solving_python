@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/51ba717bb08c1cd60f00002f
+
 def range_extraction(my_list):
 
     my_list.sort()

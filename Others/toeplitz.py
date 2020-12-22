@@ -1,4 +1,6 @@
 """
+From codewars ? cannot find the link...
+
 In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
 
 Here is an example:
